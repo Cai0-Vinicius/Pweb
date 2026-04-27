@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade8</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+
+    <label for="idade">Idade</label>
+    <input type="number" id="idade" min="1" placeholder="Digite a idade">
+
+    <label for="sexo">Sexo</label>
+    <select id="sexo">
+        <option value="feminino">Feminino</option>
+        <option value="masculino">Masculino</option>
+        <option value="outros">Outros</option>
+    </select>
+
+    <label for="opiniao">Avaliação</label>
+    <select id="opiniao">
+        <option value="4">Ótimo</option>
+        <option value="3">Bom</option>
+        <option value="2">Regular</option>
+        <option value="1">Péssimo</option>
+    </select>
+
+    <div class="actions">
+        <button onclick="adicionar()">Adicionar</button>
+        <button onclick="mostrarResultados()">Resultados</button>
+    </div>
+
+    <p id="resultado"></p>
+
+</body>
+
+</html>
