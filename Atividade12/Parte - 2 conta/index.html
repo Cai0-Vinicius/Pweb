@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 12 - Parte 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Conta Corrente</h2>
+
+  <label>Nome do correntista:</label><br>
+  <input type="text" id="c-nome"><br><br>
+
+  <label>Banco:</label><br>
+  <input type="text" id="c-banco"><br><br>
+
+  <label>Número da conta:</label><br>
+  <input type="text" id="c-numero"><br><br>
+
+  <label>Saldo:</label><br>
+  <input type="number" id="c-saldo"><br><br>
+
+  <label>Saldo Especial:</label><br>
+  <input type="number" id="c-especial"><br><br>
+
+  <button onclick="criarCorrente()">Mostrar Corrente</button>
+
+  <p id="resultado-corrente"></p>
+
+  <hr>
+
+  <h2>Conta Poupança</h2>
+
+  <label>Nome do correntista:</label><br>
+  <input type="text" id="p-nome"><br><br>
+
+  <label>Banco:</label><br>
+  <input type="text" id="p-banco"><br><br>
+
+  <label>Número da conta:</label><br>
+  <input type="text" id="p-numero"><br><br>
+
+  <label>Saldo:</label><br>
+  <input type="number" id="p-saldo"><br><br>
+
+  <label>Juros (%):</label><br>
+  <input type="number" id="p-juros"><br><br>
+
+  <label>Data de Vencimento:</label><br>
+  <input type="date" id="p-venc"><br><br>
+
+  <button onclick="criarPoupanca()">Mostrar Poupança</button>
+
+  <p id="resultado-poupanca"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
