@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0d1b2a;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+div {
+  background: #132334;
+  border: 1px solid #1e3a52;
+  border-radius: 14px;
+  padding: 2rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(201, 168, 76, 0.12);
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #c9a84c;
+}
+
+label {
+  font-size: 14px;
+  color: #a0b4c8;
+  cursor: pointer;
+}
+
+#meuTexto {
+  width: 300px;
+  font-size: 15px;
+  padding: 10px 14px;
+  border: 1.5px solid #1e3a52;
+  border-radius: 10px;
+  background: #0d1b2a;
+  color: #e8dfc8;
+  outline: none;
+}
+
+input[type="radio"] {
+  accent-color: #c9a84c;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-right: 5px;
+}
