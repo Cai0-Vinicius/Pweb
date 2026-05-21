@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Atividade 15</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+</head>
+
+<body>
+
+  <div class="card">
+    <h2>Formulário Principal</h2>
+
+    <form name="formulario1" id="formulario1" onsubmit="return validar();">
+
+      <label for="idNome">Nome Completo:</label>
+      <input type="text" name="idNome" id="idNome" placeholder="Mínimo 10 caracteres">
+
+      <label for="idEmail">E-mail:</label>
+      <input type="email" name="idEmail" id="idEmail" placeholder="seu@email.com">
+
+      <label for="idComentario">Comentário:</label>
+      <textarea name="idComentario" id="idComentario" rows="5" placeholder="Mínimo 20 caracteres..."></textarea>
+
+      <div class="pesquisa">
+        <p class="pesquisa-titulo">Pesquisa</p>
+        <p class="pesquisa-pergunta">Primeira vez nesta página?</p>
+        <div class="radios">
+          <label>
+            <input type="radio" name="visita" value="sim"> Sim
+          </label>
+          <label>
+            <input type="radio" name="visita" value="nao"> Não
+          </label>
+        </div>
+      </div>
+
+      <div class="botoes">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+      </div>
+
+    </form>
+  </div>
